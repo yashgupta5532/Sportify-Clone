@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+   
+   
+}
+.logo{
+    height: 50px;
+    margin: 5px;
+}
+span{
+    font-weight: bold;
+    margin-left: -25px;
+    
+
+}
+
+ul{
+    display: flex;
+    float: right;
+    font-size: 30px;
+    margin-left: auto;
+}
+li{
+   margin: 20px;
+}
+
+.container{
+    height: 80vh;
+    /* background-color: black; */
+    margin:20px auto;
+    width: 80vw;
+   background-image: url(/images/bg-img.jpeg);
+   background-position:cover;
+   background-attachment: fixed;
+   display: flex;
+   
+}
+
+.song-item{
+    height: 10pxpx;
+    width: 35vw;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    border-radius: 45px;
+    margin: 20px 0;
+   
+
+}
+.song-item span{
+    
+    margin: 0 20px;
+}
+
+.song-item img{
+    border-radius: 50px;
+    height: 25px;
+}
+.song-item .play .timestamp{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+h1{
+    color: aqua;
+}
+.alone-pic img{
+   background-position: cover;
+   height: 80vh;
+   border-radius: 60px;
+}
+.footer{
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+#progressbar{
+    width: 80vw;
+    height: 55px;
+    
+}
+.icons{
+   color: white;
+   position: absolute;
+   left: 50vw; 
+   font-size: 30px;
+   margin-top: 40px;
+   cursor: pointer;
+   
+}
+.footer .player img{
+    height: 40px;
+    width: 30vw;
+    /* float: left; */
+    /* margin-left: -538px;
+    margin-top: -44px; */
+}
+.player{
+  position: absolute;
+  display: inline-block;
+}
